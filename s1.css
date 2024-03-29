@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  background: url("https://as1.ftcdn.net/v2/jpg/02/23/28/54/1000_F_223285470_CGd1jlW3pilqyWyp1RcDBf8rWHhIBiyE.jpg");
+}
+
+.container{
+  background-color: #273549;
+  width: 500px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title{
+  font-size: 3rem;
+  width:33rem;
+  color: white;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+
+span{
+  color: #4ADF86;
+}
+
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 3px;
+  font-size: 0.9rem;
+  color: #D5D4D8;
+}
+
+.input-container{
+  width: 100%;
+  background-color: #2F3E53;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #D5D4D8;
+  
+}
+
+.input{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 19px;
+  letter-spacing: 5px;
+  color: #55F991;
+}
+
+.input::placeholder{
+  letter-spacing: 0;
+}
+.fa-copy{
+  cursor: pointer;
+  opacity: 0.3;
+}
+.fa-copy:hover{
+  opacity: 0.7;
+}
+
+.btn{
+  padding: 10px 20px;
+  background:#4ADF86;
+  color: black;
+  border: none;
+  margin: 20px 0;
+  border-radius: 7px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #4ADF86;
+}
+.btn:active{
+  transform: scale(0.90);
+}
+
+.alert-container{
+  position: fixed;
+  width: 300px;
+  height: 50px;
+  background-color: #4ADF86;
+  display: flex;
+  right:20px;
+  bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  transition: 0.4s;
+}
+
+.active.alert-container{
+  right: -9999px;
+}
+
+@media screen  and (max-width:480px){
+  .container{
+    transform: scale(0.7);
+  }
+}
