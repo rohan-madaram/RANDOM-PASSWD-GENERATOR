@@ -54,7 +54,7 @@ h4{
 .input{
   border: none;
   outline: none;
-  background-color: transparent;
+  background-color: blue;
   font-size: 19px;
   letter-spacing: 5px;
   color: #55F991;
@@ -83,11 +83,26 @@ h4{
 }
 
 .btn:hover{
-  background-color: #4ADF86;
+  background-color: greenyellow;
 }
 .btn:active{
   transform: scale(0.90);
 }
+.btn1{
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border: white;
+  margin: 20px 0;
+  border-radius: 7px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 50px;
+  margin-top: 50px;
+  text-decoration-line: underline;
+  font-style: italic;
+}
+
 
 .alert-container{
   position: fixed;
